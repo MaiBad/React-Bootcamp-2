@@ -11,7 +11,6 @@ const Componente = () => {
 
     const [state, setState] = useState(initialState)
 
-
     useEffect(() => {
         const timer = setInterval(() => {
             tick()
@@ -29,6 +28,7 @@ const Componente = () => {
             apellidos: state.apellidos,
         })
     }
+    
     return (
         <div>
             <h2>
